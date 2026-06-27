@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/character_list_screen.dart';
+import 'screens/user_list_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: CharacterListScreen(),
+      home: const UserListScreen(),
     );
   }
 }
